@@ -130,4 +130,17 @@ body {
     justify-content: center;
 }
 
-
+#inspiration{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+#inspiration h1{
+    margin-bottom: 30px;
+}
+#inspiration p{
+    margin-bottom: 60px;
+}
+#inspiration .iframe{
+    width: 700px;
+}
