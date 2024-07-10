@@ -144,3 +144,49 @@ body {
 #inspiration .iframe{
     width: 700px;
 }
+
+
+#target{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 100px;
+}
+#target p{
+    margin: 30px;
+}
+#target .parentm {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+#target .parentm .childm{
+    height: 300px;
+    width: 600px;
+    background-color: antiquewhite;
+}
+#target .parentm .childm img ,#target .parentm .childm1 img , #target .parentm .childm2 img {
+    margin-top: 50px;
+}
+#target .parentm .childm1{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(165, 215, 215);
+}
+#target .parentm .childm2{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(203, 203, 158);
+}
+#target .parentm .childm .btn ,#target .parentm .childm1 .btn , #target .parentm .childm2 .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; /* Remove background color */
+    color: #007bff; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    border: none;
+    width: 50px;
+    height: 25px;
+}
