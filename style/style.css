@@ -12,11 +12,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background-color: #f0f0f0; */
+    width: 100vw;
 }
 
 #hero {
-    width: 1440px;
+    width: 100vw;
     height: 652px;
     background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
     background-size: cover;
@@ -27,12 +27,15 @@ body {
     position: relative;
 }
 
-.hero-content {
+#hero .hero-content {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    /* background: rgba(255, 255, 255, 0.8);  */
-    /* optional: to add a background to the content */
+    max-width: 90%;
+}
+
+#hero .hero-content .hero-content2 {
+    margin: 26px auto 44px auto;
 }
 
 .hero-content img.f-1 {
@@ -47,7 +50,7 @@ body {
 }
 
 .hero-content p {
-    margin: 24px 0px;
+    margin: 24px 0;
     font-size: 1em;
 }
 
@@ -55,12 +58,76 @@ body {
     color: rgb(255, 255, 255);
     height: 66px;
     width: 208px;
-    font-family: Azeret Mono;
+    font-family: 'Azeret Mono', monospace;
     font-size: 20px;
     font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
     text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
+.main1 {
+    margin-top: 150px; /* Adjust top margin as needed */
+    padding: 20px; /* Adjust padding as needed */
+    background: rgba(13, 19, 33, 0.02); /* Example background with opacity */
+    border-radius: 16px;
+}
+#development {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+#development .parent {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#development .parent p {
+    margin-top: 20px;
+}
+
+#development .parent1 , #development .parents2 {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.child1, .child2, .children, .children2, .children21 {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.child2 img, .children2 img, .children21 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.child1 p, .children p, .children2 p {
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.child1 button, .children button, .children2 button {
+    padding: 10px 20px;
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0px;
+    background: white;
+}
+#development .parents{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
