@@ -72,7 +72,9 @@ body {
     border-radius: 16px;
 }
 #development {
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
     background: rgb(255, 255, 255);
     padding: 20px;
 }
@@ -84,6 +86,10 @@ body {
 
 #development .parent p {
     margin-top: 20px;
+}
+#development .child{
+    text-align: center;
+
 }
 
 #development .parent1 , #development .parents2 {
@@ -98,7 +104,7 @@ body {
 .child1, .child2, .children, .children2, .children21 {
     flex: 1 1 45%;
     box-sizing: border-box;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .child2 img, .children2 img, .children21 img {
@@ -107,7 +113,7 @@ body {
 }
 
 .child1 p, .children p, .children2 p {
-    margin-left: 130px;
+    /* margin-left: 130px; */
     margin-top: 20px;
 }
 
@@ -225,6 +231,10 @@ body {
 
 .overlay h1 {
     margin-top: 0;
+    margin-bottom: 20px;
+}
+.overlay p{
+    margin-bottom: 20px;
 }
 /* 106 */
 .overlay button {
@@ -241,4 +251,63 @@ body {
 
 .overlay button:hover {
     background-color: #0056b3;
+}
+.extra-margin{
+    margin-left: 300px;
+
+}
+#myInput{
+    width: 400px;
+    margin-left: 200px;
+    text-align: left;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 5px;
+    
+    
+}
+
+#myInput2{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    
+    
+    
+}
+.text{
+    margin-right: 150px;
+}
+
+
+#footer {
+    height: 100px;
+    background-color: rgb(237, 242, 245);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#footer .icons {
+    margin-left: 30px;
+}
+
+#footer .icons img {
+    margin-right: 400px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+#footer h1 {
+    margin-left: 400px;
+    
+    padding-right: 30px;
+}
+#hero .hero-content .hero-content2 .buttons{
+    
+
 }
